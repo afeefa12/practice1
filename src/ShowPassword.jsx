@@ -30,13 +30,14 @@ return(
  export default ShowPassword
 
 
- //ternary operator
- let age = 18;
- let canVote = age >= 18 ? "yes" : "No";
- console.log(canVote);
-//trim()
-"text ".trim()
+//  //ternary operator
+//  let age = 18;
+//  let canVote = age >= 18 ? "yes" : "No";
+//  console.log(canVote);
+// //trim()
+// "text ".trim()
 
-//padstart or padend
- "5".padStart(3, "0")  //"005"
- "5",.padEnd(3,"0")//"500"
+// //padstart or padend
+//  "5".padStart(3, "0")  //"005"
+//  "5",.padEnd(3,"0")//"500"    
+ 

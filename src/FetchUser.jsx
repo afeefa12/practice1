@@ -1,0 +1,1 @@
+import react,{n const [first, setfirst] = useState(second)}  bb
