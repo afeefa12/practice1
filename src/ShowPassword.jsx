@@ -1,33 +1,33 @@
-// import React, { useState } from 'react'
+import React, { useState } from 'react'
 
-// const ShowPassword = () =>{
-//     const [show, setShow] = useState(false);
+const ShowPassword = () =>{
+    const [show, setShow] = useState(false);
 
-//   return (
-//     <div>
-//         <input type ={show ? "text" : "password"} placeholder ="Enter password"/>
-//         <button onClick={()=> setShow(!show)}>
-//         {show ? "Hide" : "show"}
-//         </button>
-//     </div>
-//   );
+  return (
+    <div>
+        <input type ={show ? "text" : "password"} placeholder ="Enter password"/>
+        <button onClick={()=> setShow(!show)}>
+        {show ? "Hide" : "show"}
+        </button>
+    </div>
+  );
 
-// };
-
-// export default ShowPassword
-
-
-import react,{useState} from 'react'
-const ShowPassword =() => {
-const [show, setShow] = useState(false)
-return(
-<div>
-    <input type = {show ? "text" : "password"} placeholder="Enter password"/>
-    <button onClick={() => setShow(!show)}>{show ? "Hide" : "show"}</button>
-</div>
- );
 };
- export default ShowPassword
+
+export default ShowPassword
+
+
+// import react,{useState} from 'react'
+// const ShowPassword =() => {
+// const [show, setShow] = useState(false)
+// return(
+// <div>
+//     <input type = {show ? "text" : "password"} placeholder="Enter password"/>
+//     <button onClick={() => setShow(!show)}>{show ? "Hide" : "show"}</button>
+// </div>
+//  );
+// };
+//  export default ShowPassword
 
 
 //  //ternary operator

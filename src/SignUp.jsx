@@ -28,7 +28,7 @@ function SignupForm() {
       newErrors.email = "Valid email is required";
     }
 
-    if (formData.password.length < 6) {
+    if (!formData.password.length < 6) {
       newErrors.password = "Password must be at least 6 characters";
     }
 
@@ -37,7 +37,8 @@ function SignupForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const validationErrors = validate();
+    const validationErrors = valid
+    ate();
 
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
